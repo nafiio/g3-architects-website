@@ -6,5 +6,52 @@
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400 ;
-  font-style: normal;
+  font-style: normal; 
 }
+
+
+
+/* shared styles */
+
+.display-flex{
+    display: flex;
+}
+/* dark 02 */
+.text-gray{
+ color: #424242;   
+}
+/* dark 03 */
+.text-light-gray{
+   color: #727272;
+}
+.Bg-light{
+   background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* header styles */
+
+
+/* navbar related styles */
+
+ 
+ .nav-bar{
+   justify-content: space-between;
+     align-items: center;
+ }
+ .brand{
+   font-weight:700 ;
+   font-size: 3rem;
+ }
+ .nav-item{
+    list-style: none;
+    margin-right: 30px;
+ }
+ .nav-link{
+    text-decoration: none;
+    font-weight: 500;
+ }
+ .nav-bar, .banner{
+   max-width: 1440px;
+   margin: 0 auto;
+ }
+ /* banner style */
