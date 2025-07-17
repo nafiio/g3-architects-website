@@ -209,6 +209,18 @@ section >
   filter: grayscale(100%);
 }
 
+/* footer style */
+.footer{
+  background-color: #FFF4E7;
+  color: rgba(66, 66, 66, 1);
+  font-size: 1.25rem;
+  max-width: 1440px;
+  text-align: center;
+  padding: 38px 410px;
+  margin: 240px 216px;
+  
+}
+
 
  /* responsiver media queri */
 
@@ -259,6 +271,22 @@ section >
   #experience-badge{
         margin-top: 20px;
         margin-left: 20px;
+      }
+
+      .some-container{
+        text-align: center;
+      }
+      .facts-container{
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+      }
+      .sponsers-companies{
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+      }
+
+      .footer{
+        justify-items: center;
       }
   
 
